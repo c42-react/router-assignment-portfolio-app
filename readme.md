@@ -19,3 +19,19 @@ https://www.udemy.com/react-2nd-edition/
 4. From command line can invoke these scripts via npm -
     npm run serve
     npm run build
+
+-----------------------------------------------------------------------------------------------
+## Assignment tasks:
+
+Create a routing scheme for following:
+
+header
+home
+    - contact
+    - portfolio
+        - portfolio/:id
+
+header: to contain links to home, contact & portfolio pages
+home: display a welcome message
+portfolio: to link to individual projects
+portfolio: display project id passed in as param
